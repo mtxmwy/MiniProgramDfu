@@ -1,0 +1,21 @@
+<view class="container">
+<loading hidden="{{  loadingHidden }}">
+
+    ({{total}}/{{count}})写入{{percentage}}%
+
+  </loading>
+  <view class='order_process'>
+    <view class='process_wrap' wx:for="{{processData}}" wx:key="">
+      <view class='process'>
+        <view class='process_line' style="background:{{item.start}}"></view>
+        <image class='process_icon' src="{{item.icon}}"></image>
+        <view class='process_line' style="background:{{item.end}}"></view>
+      </view>
+      <text class='process_name'>{{item.name}}</text>
+    </view>
+
+  </view>
+  <button class='bottomView' bindtap='updateLockNewViewsion2' disabled="{{disable}}">
+    升级固件
+  </button> 
+</view>

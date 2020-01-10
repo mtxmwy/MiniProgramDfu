@@ -1,0 +1,58 @@
+.order_process {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 10rpx 10rpx 20rpx 10rpx;
+  background-color: #fff;
+}
+
+.process_wrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.process {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.process_icon {
+  width: 50rpx;
+  height: 50rpx;
+  animation: rotate 3s linear infinite; 
+}
+
+.process_line {
+  background: #eff3f6;
+  flex: 1;
+  height: 5rpx;
+}
+
+.process_name {
+  font-size: 24rpx;
+}
+
+@keyframes rotate{from{transform: rotate(0deg)}
+to{transform: rotate(360deg)}
+}
+
+.bottomView{
+  width: 90%;
+  margin-top: 40rpx;
+  height: 88rpx;
+  background: #0E63FE;
+  border-radius: 44rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 16rpx 20rpx 0 rgba(14, 99, 245, 0.3);
+  color:white
+}
+
+.bottomView view {
+  font-size: 32rpx;
+  color: white;
+}

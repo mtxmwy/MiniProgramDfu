@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+      "pages/secure-dfu/secure-dfu",
+    "pages/dfu/dfu",
+    
+    "pages/logs/logs"
+  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
